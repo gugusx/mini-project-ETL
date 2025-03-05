@@ -1,7 +1,7 @@
 #!python config
 
 #--- Setup connection to Source
-oltp_conn_string = {
+source_conn = {
     'user': 'gugus',
     'password': 'gugus12345',
     'host': 'localhost',
@@ -10,7 +10,7 @@ oltp_conn_string = {
 }
 
 #--- Setup connection to Destination
-warehouse_conn_string = {
+dest_conn = {
     'user': 'gugus',
     'password': 'gugus12345',
     'host': 'localhost',
